@@ -1,0 +1,244 @@
+.footer{
+    width: 1495px;
+    height: 950px;
+    flex-shrink: 0;
+}
+
+.list_footer{
+    display: flex;
+    position: relative;
+    margin-left: 150px;
+    z-index: 1;
+    bottom: 120px;
+}
+
+.card_footer{
+    width: 368px;
+height: 542px;
+flex-shrink: 0;
+border-radius: 24px;
+background: #FFF;
+box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.10);
+}
+
+.card_footer:not(:first-child){
+    margin-left: 32px;
+}
+
+.title_card{
+    display: inline;
+    width: 48px;
+color: #131313;
+width: 148px;
+height: 30px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #F8D24E;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+letter-spacing: 0.64px;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 14px;
+padding-right: 14px;
+margin-left: 54px;
+}
+
+.city_card{
+    color: #131313;
+
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 186%; /* 29.76px */
+letter-spacing: 0.64px;
+margin-left: 40px;
+}
+
+.street_city{
+    text-align: left;
+    width: 288px;
+height: 50px;
+flex-shrink: 0;
+color: #D6936D;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 183%; /* 29.28px */
+letter-spacing: 0.64px;
+text-decoration-line: underline;
+
+}
+
+.day_card{
+    color: #131313;
+
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 186%; /* 29.76px */
+letter-spacing: 0.64px;
+margin-left: 40px;
+}
+
+.time_card{
+    color: #ABABAB;
+
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 186%; /* 29.76px */
+margin-left: 40px;
+}
+
+.telephone_card{
+    color: #131313;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+margin-left: 40px;
+}
+
+.email_card{
+    color: #131313;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+margin-left: 40px;
+}
+
+.box_one{
+    margin-top: 44px;
+}
+
+.box_two{
+    margin-top: 64px;
+}
+
+.buttons_footer{
+    display: flex;
+    margin-left: 540px;
+}
+
+.one_button_footer{
+    width: 196px;
+height: 42px;
+flex-shrink: 0;
+background-color: #F8D24E;
+color: #131313;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px; /* 128.571% */
+border-radius: 10px;
+border: inherit;
+}
+
+.two_button_footer{
+    display: flex;
+width: 196px;
+height: 42px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 10px;
+background-color: inherit;
+border: 2px solid #F8D24E;
+color: #000;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px; /* 128.571% */
+margin-left: 16px;
+}
+
+.text_footer{
+    margin-top: 120px;
+}
+
+.paragraph_footer{
+    color: #FCFCFC;
+
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+margin-bottom: -30px;
+}
+
+.title_footer{
+    color: #FCFCFC;
+
+font-family: Montserrat;
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.48px;
+text-transform: uppercase;
+}
+
+.line{
+    border: 1px solid;
+    color: #E1E1E1;;
+}
+
+.end_footer{
+    width: 255px;
+height: 20px;
+flex-shrink: 0;
+color: #7A7A7A;
+
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 186%; /* 22.32px */
+letter-spacing: 0.24px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.contact_footer{
+    color: #131313;
+
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 186%; /* 29.76px */
+letter-spacing: 0.32px;
+margin-left: 1130px;
+}
+
+.last_footer{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 186%;
+letter-spacing: 0.32px;
+}

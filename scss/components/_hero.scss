@@ -1,0 +1,104 @@
+.title_hero{
+    width: 367px;
+color: #FCFCFC;
+font-family: Seymour One;
+font-size: 38px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.52px;
+text-transform: uppercase;
+margin-top: 45px;
+margin-left: 16px;
+}
+
+.button_hero{
+    width: 134px;
+height: 42px;
+flex-shrink: 0;
+background-color: inherit;
+    color: #131313;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px; /* 128.571% */
+border-radius: 8px;
+border: solid;
+border-color: #F8D24E;
+margin-left: 16px;
+}
+
+.link_hero{
+    color: #F8D24E;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration-line: underline;
+margin-left: 34px;
+}
+
+.menu_hero{
+    display: flex;
+}
+
+.image_hero{
+    width: 225px;
+height: 225px;
+flex-shrink: 0;
+margin-top: 42px;
+margin-left: 16px;
+}
+
+.paragraph_hero{
+    width: 200px;
+color: #FFF;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 19.6px */
+margin-top: 109px;
+margin-left: 16px;
+}
+
+.icecream{
+    position: absolute;
+    margin-left: 950px;
+}
+
+.text_hero{
+   position: absolute;
+   margin-left: 1400px;
+   margin-top: -500px;
+}
+
+.number_hero{
+    color: #131313;
+text-align: right;
+font-family: Montserrat;
+font-size: 46px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 1.84px;
+text-transform: uppercase;
+}
+
+.place_hero{
+    color: #FCFCFC;
+text-align: right;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.place_hero{
+    margin-top: -35px;
+}

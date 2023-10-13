@@ -1,0 +1,60 @@
+.header{
+    margin-top: 8px;
+    margin-left: 15px;
+  margin-right: 15px;
+    background: #84A178;
+}
+
+.menu{
+    display: flex;
+}
+
+.list_header{
+    display: flex;
+    display: flex;
+width: 444px;
+height: 20px;
+align-items: flex-start;
+gap: 28px;
+flex-shrink: 0;
+margin-left: auto;
+margin-right: auto;
+margin-top: 40px;
+}
+
+.link_header{
+    display: flex;
+    display: inline;
+    color: #FCFCFC;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.button_header{
+    border: inherit;
+    width: 152px;
+height: 42px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #F8D24E;
+color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 28px;
+}
+
+.logo_menu{
+    display: flex;
+}
+
+.ce{
+    margin-top: 42px;
+    margin-left: -5px;
+}
