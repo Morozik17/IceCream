@@ -1,17 +1,16 @@
 .info{
-    height: 1228px;
-flex-shrink: 0;
-fill: #84A178;
+padding-top: 60px;
+padding-bottom: 60px;
 }
 
 .text_info{
-    margin-top: 60px;
+    // margin-top: 60px;
 }
 
 .paragraph_info{
     color: #FCFCFC;
 text-align: center;
-font-family: Montserrat;
+font-family: "Montserrat";
 font-size: 30px;
 font-style: normal;
 font-weight: 800;
@@ -23,7 +22,7 @@ text-transform: uppercase;
 .title_info{
     color: #FCFCFC;
 text-align: center;
-font-family: Seymour One;
+font-family:" Seymour One";
 font-size: 36px;
 font-style: normal;
 font-weight: 400;
@@ -54,7 +53,7 @@ margin-top: 82px;
 height: 111px;
 flex-shrink: 0;
 color: #FCFCFC;
-font-family: Montserrat;
+font-family: "Montserrat";
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -72,7 +71,7 @@ border-radius: 10px;
 background: #F8D24E;
 color: #000;
 text-align: center;
-font-family: Montserrat;
+font-family: 'Montserrat';
 font-size: 14px;
 font-style: normal;
 font-weight: 600;
@@ -84,6 +83,7 @@ margin-left: 616px;
 
 .container_info{
     display: flex;
+    justify-content: center;
     margin-top: 200px;
 
 }
@@ -94,7 +94,7 @@ margin-left: 616px;
 
 .weight{
     color: #FCFCFC;
-font-family: Montserrat;
+font-family: "Montserrat";
 font-size: 58px;
 font-style: normal;
 font-weight: 700;
@@ -111,7 +111,7 @@ text-align: center;
 height: 52px;
 flex-shrink: 0;
 color: #FCFCFC;
-font-family: Montserrat;
+font-family: "Montserrat";
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -121,5 +121,5 @@ text-align: center;
 }
 
 .box_text{
-    margin-left: 100px;
+
 }

@@ -1,13 +1,10 @@
 .footer{
-    width: 1495px;
-    height: 950px;
-    flex-shrink: 0;
+
 }
 
 .list_footer{
     display: flex;
     position: relative;
-    margin-left: 150px;
     z-index: 1;
     bottom: 120px;
 }
@@ -52,7 +49,7 @@ margin-left: 54px;
 .city_card{
     color: #131313;
 
-font-family: Montserrat;
+font-family: "Montserrat";
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -67,7 +64,7 @@ margin-left: 40px;
 height: 50px;
 flex-shrink: 0;
 color: #D6936D;
-font-family: Montserrat;
+font-family: "Montserrat";
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -80,7 +77,7 @@ text-decoration-line: underline;
 .day_card{
     color: #131313;
 
-font-family: Montserrat;
+font-family: "Montserrat";
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -92,7 +89,7 @@ margin-left: 40px;
 .time_card{
     color: #ABABAB;
 
-font-family: Montserrat;
+font-family: "Montserrat";
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -102,7 +99,7 @@ margin-left: 40px;
 
 .telephone_card{
     color: #131313;
-font-family: Montserrat;
+font-family: "Montserrat";
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -112,7 +109,7 @@ margin-left: 40px;
 
 .email_card{
     color: #131313;
-font-family: Montserrat;
+font-family: "Montserrat";
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -224,18 +221,19 @@ margin-right: auto;
 .contact_footer{
     color: #131313;
 
-font-family: Montserrat;
+font-family: "Montserrat";
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: 186%; /* 29.76px */
 letter-spacing: 0.32px;
-margin-left: 1130px;
+display: flex;
+justify-content: flex-end;
 }
 
 .last_footer{
     color: #FFF;
-font-family: Montserrat;
+font-family: "Montserrat";
 font-size: 16px;
 font-style: normal;
 font-weight: 700;

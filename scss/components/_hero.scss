@@ -1,7 +1,16 @@
+.hero{
+padding-top: 31px;
+}
+
+.hero > .container{
+justify-content: space-between;
+display: flex;
+}
+
 .title_hero{
-    width: 367px;
+width: 367px;
 color: #FCFCFC;
-font-family: Seymour One;
+font-family: "Seymour One" sans-serif;
 font-size: 38px;
 font-style: normal;
 font-weight: 400;
@@ -19,7 +28,7 @@ flex-shrink: 0;
 background-color: inherit;
     color: #131313;
 text-align: center;
-font-family: Montserrat;
+font-family: "Montserrat" sans-serif;
 font-size: 14px;
 font-style: normal;
 font-weight: 600;
@@ -33,7 +42,7 @@ margin-left: 16px;
 .link_hero{
     color: #F8D24E;
 text-align: center;
-font-family: Montserrat;
+font-family: "Montserrat" sans-serif;
 font-size: 14px;
 font-style: normal;
 font-weight: 600;
@@ -57,7 +66,7 @@ margin-left: 16px;
 .paragraph_hero{
     width: 200px;
 color: #FFF;
-font-family: DM Sans;
+font-family:" DM Sans" sans-serif;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -66,21 +75,22 @@ margin-top: 109px;
 margin-left: 16px;
 }
 
+.hero-blok{
+display: flex;
+}
+
 .icecream{
-    position: absolute;
-    margin-left: 950px;
+
 }
 
 .text_hero{
-   position: absolute;
-   margin-left: 1400px;
-   margin-top: -500px;
+
 }
 
 .number_hero{
     color: #131313;
 text-align: right;
-font-family: Montserrat;
+font-family: "Montserrat" sans-serif;
 font-size: 46px;
 font-style: normal;
 font-weight: 900;
@@ -92,7 +102,7 @@ text-transform: uppercase;
 .place_hero{
     color: #FCFCFC;
 text-align: right;
-font-family: Montserrat;
+font-family: "Montserrat" sans-serif;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;

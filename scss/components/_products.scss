@@ -1,120 +1,115 @@
-.products{
-    width: 1495px;
-    height: 1100px;
-    background-image: url(/images/Frame\ 403.jpg);
-    margin-top: 76px;
+.products {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url(/images/Frame\ 403.jpg);
 }
 
-.text_products{
-    padding-top: 60px;
+.paragraph_products {
+  color: #131313;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
 }
 
-.paragraph_products{
-    color: #131313;
-text-align: center;
-font-family: Montserrat;
-font-size: 30px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-letter-spacing: 1.2px;
-text-transform: uppercase;
+.title_products {
+  color: #131313;
+  text-align: center;
+  font-family: "Seymour One";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+  margin-top: -5px;
 }
 
-.title_products{
-    color: #131313;
-text-align: center;
-font-family: Seymour One;
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 2.16px;
-text-transform: uppercase;
-margin-top: -5px;
+.cards {
+  display: flex;
+  width: 1168px;
+  height: 719px;
+  flex-shrink: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 274px;
 }
 
-.cards{
-    display: flex;
-    width: 1168px;
-height: 719px;
-flex-shrink: 0;
-margin-left: auto;
-    margin-right: auto;
-    margin-top: 274px;
+.card_one {
+  width: 370px;
+  height: 536px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #aec6a5;
+  box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
 }
 
-.card_one{
-    width: 370px;
-height: 536px;
-flex-shrink: 0;
-border-radius: 24px;
-background: #AEC6A5;
-box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.10);
-
+.card_two {
+  width: 370px;
+  height: 536px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #efd478;
 }
 
-.card_two{
-    width: 370px;
-height: 536px;
-flex-shrink: 0;
-border-radius: 24px;
-background: #EFD478;
+.card_three {
+  width: 370px;
+  height: 536px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #d6936d;
 }
 
-.card_three{
-    width: 370px;
-height: 536px;
-flex-shrink: 0;
-border-radius: 24px;
-background: #D6936D;
+.food_cards {
+  color: #131313;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
 }
 
-.food_cards{
-    color: #131313;
-text-align: center;
-font-family: Montserrat;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 1.2px;
-text-transform: uppercase;
+.compound_cards {
+  width: 246px;
+  height: 142px;
+  flex-shrink: 0;
+  color: #131313;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 176%; /* 28.16px */
+  letter-spacing: 0.64px;
+  padding-top: 60px;
+  margin-left: 61px;
 }
 
-.compound_cards{
-    width: 246px;
-height: 142px;
-flex-shrink: 0;
-color: #131313;
-text-align: center;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 176%; /* 28.16px */
-letter-spacing: 0.64px;
-padding-top: 60px;
-margin-left: 61px;
+.list_cards {
+  display: flex;
+  gap: 30px;
 }
 
-.list_cards{
-    display: flex;
+.link_cards {
+  flex-basis: calc((100% - 60px) / 3);
 }
 
-.link_cards{
-    margin-left: 29px;
+.instruction_cards {
+  padding-top: 165px;
 }
 
-.instruction_cards{
-    padding-top: 165px;
-}
-
-.circle{
-    position: absolute;
-    margin-left: 34px;
-    margin-top: -327px;
-    border-radius: 302px;
-    padding-bottom: 20px;
-    box-shadow: 0px 8px 30px 0px rgba(153, 114, 23, 0.25);
+.circle {
+  position: absolute;
+  margin-left: 34px;
+  margin-top: -327px;
+  border-radius: 302px;
+  padding-bottom: 20px;
+  box-shadow: 0px 8px 30px 0px rgba(153, 114, 23, 0.25);
 }

@@ -3,42 +3,35 @@
 }
 
 .header {
-  margin-top: 8px;
-  margin-left: 15px;
-  margin-right: 15px;
-  background: #84A178;
+  padding: 20px 3px;
 }
 
-.menu {
+.navigation {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .list_header {
   display: flex;
-  display: flex;
-  width: 444px;
-  height: 20px;
-  align-items: flex-start;
   gap: 28px;
-  flex-shrink: 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
 }
 
 .link_header {
-  display: flex;
-  display: inline;
   color: #FCFCFC;
-  font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
+.link_header:hover,
+.link_header:focus {
+  color: #F8D24E;
+}
+
 .button_header {
-  border: inherit;
+  border: none;
   width: 152px;
   height: 42px;
   flex-shrink: 0;
@@ -51,7 +44,12 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-top: 28px;
+}
+
+.button_header:hover,
+.button_header:focus {
+  background-color: #ad9025;
+  color: #FCFCFC;
 }
 
 .logo_menu {
@@ -64,20 +62,15 @@
 }
 
 .products {
-  width: 1495px;
-  height: 1100px;
-  background-image: url(/images/Frame\ 403.jpg);
-  margin-top: 76px;
-}
-
-.text_products {
   padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url(/images/Frame\ 403.jpg);
 }
 
 .paragraph_products {
   color: #131313;
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 30px;
   font-style: normal;
   font-weight: 800;
@@ -89,7 +82,7 @@
 .title_products {
   color: #131313;
   text-align: center;
-  font-family: Seymour One;
+  font-family: "Seymour One";
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -114,7 +107,7 @@
   height: 536px;
   flex-shrink: 0;
   border-radius: 24px;
-  background: #AEC6A5;
+  background: #aec6a5;
   box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
 }
 
@@ -123,7 +116,7 @@
   height: 536px;
   flex-shrink: 0;
   border-radius: 24px;
-  background: #EFD478;
+  background: #efd478;
 }
 
 .card_three {
@@ -131,7 +124,7 @@
   height: 536px;
   flex-shrink: 0;
   border-radius: 24px;
-  background: #D6936D;
+  background: #d6936d;
 }
 
 .food_cards {
@@ -164,10 +157,11 @@
 
 .list_cards {
   display: flex;
+  gap: 30px;
 }
 
 .link_cards {
-  margin-left: 29px;
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .instruction_cards {
@@ -183,10 +177,19 @@
   box-shadow: 0px 8px 30px 0px rgba(153, 114, 23, 0.25);
 }
 
+.hero {
+  padding-top: 31px;
+}
+
+.hero > .container {
+  justify-content: space-between;
+  display: flex;
+}
+
 .title_hero {
   width: 367px;
   color: #FCFCFC;
-  font-family: Seymour One;
+  font-family: "Seymour One" sans-serif;
   font-size: 38px;
   font-style: normal;
   font-weight: 400;
@@ -204,7 +207,7 @@
   background-color: inherit;
   color: #131313;
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat" sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -218,7 +221,7 @@
 .link_hero {
   color: #F8D24E;
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat" sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -242,7 +245,7 @@
 .paragraph_hero {
   width: 200px;
   color: #FFF;
-  font-family: DM Sans;
+  font-family: " DM Sans" sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -251,21 +254,14 @@
   margin-left: 16px;
 }
 
-.icecream {
-  position: absolute;
-  margin-left: 950px;
-}
-
-.text_hero {
-  position: absolute;
-  margin-left: 1400px;
-  margin-top: -500px;
+.hero-blok {
+  display: flex;
 }
 
 .number_hero {
   color: #131313;
   text-align: right;
-  font-family: Montserrat;
+  font-family: "Montserrat" sans-serif;
   font-size: 46px;
   font-style: normal;
   font-weight: 900;
@@ -277,7 +273,7 @@
 .place_hero {
   color: #FCFCFC;
   text-align: right;
-  font-family: Montserrat;
+  font-family: "Montserrat" sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -289,19 +285,14 @@
 }
 
 .info {
-  height: 1228px;
-  flex-shrink: 0;
-  fill: #84A178;
-}
-
-.text_info {
-  margin-top: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .paragraph_info {
   color: #FCFCFC;
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 30px;
   font-style: normal;
   font-weight: 800;
@@ -313,7 +304,7 @@
 .title_info {
   color: #FCFCFC;
   text-align: center;
-  font-family: Seymour One;
+  font-family: " Seymour One";
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -340,7 +331,7 @@
   height: 111px;
   flex-shrink: 0;
   color: #FCFCFC;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -358,7 +349,7 @@
   background: #F8D24E;
   color: #000;
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -370,6 +361,7 @@
 
 .container_info {
   display: flex;
+  justify-content: center;
   margin-top: 200px;
 }
 
@@ -379,7 +371,7 @@
 
 .weight {
   color: #FCFCFC;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 58px;
   font-style: normal;
   font-weight: 700;
@@ -395,7 +387,7 @@
   height: 52px;
   flex-shrink: 0;
   color: #FCFCFC;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -404,20 +396,9 @@
   text-align: center;
 }
 
-.box_text {
-  margin-left: 100px;
-}
-
-.footer {
-  width: 1495px;
-  height: 950px;
-  flex-shrink: 0;
-}
-
 .list_footer {
   display: flex;
   position: relative;
-  margin-left: 150px;
   z-index: 1;
   bottom: 120px;
 }
@@ -460,7 +441,7 @@
 
 .city_card {
   color: #131313;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -475,7 +456,7 @@
   height: 50px;
   flex-shrink: 0;
   color: #D6936D;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -486,7 +467,7 @@
 
 .day_card {
   color: #131313;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -497,7 +478,7 @@
 
 .time_card {
   color: #ABABAB;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -507,7 +488,7 @@
 
 .telephone_card {
   color: #131313;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -517,7 +498,7 @@
 
 .email_card {
   color: #131313;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -623,23 +604,32 @@
 
 .contact_footer {
   color: #131313;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 186%; /* 29.76px */
   letter-spacing: 0.32px;
-  margin-left: 1130px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .last_footer {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 186%;
   letter-spacing: 0.32px;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 ul {
@@ -662,7 +652,6 @@ img {
 }
 
 .feedback {
-  width: 1495px;
   height: 1100px;
   background-image: url(/images/Frame\ 403.jpg);
 }
@@ -676,7 +665,7 @@ img {
   margin-right: auto;
   border-radius: 24px;
   z-index: 1;
-  bottom: 160px;
+  bottom: 30px;
 }
 
 .face_feedback {

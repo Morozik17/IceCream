@@ -1,41 +1,36 @@
 .header{
-    margin-top: 8px;
-    margin-left: 15px;
-  margin-right: 15px;
-    background: #84A178;
+  padding: 20px 3px;
+
 }
 
-.menu{
+.navigation{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 .list_header{
-    display: flex;
-    display: flex;
-width: 444px;
-height: 20px;
-align-items: flex-start;
+display: flex;
 gap: 28px;
-flex-shrink: 0;
-margin-left: auto;
-margin-right: auto;
-margin-top: 40px;
 }
 
 .link_header{
-    display: flex;
-    display: inline;
-    color: #FCFCFC;
-font-family: Montserrat;
+color: #FCFCFC;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
 
+.link_header:hover,
+.link_header:focus{
+color: #F8D24E;
+}
+
 .button_header{
-    border: inherit;
-    width: 152px;
+border: none;
+width: 152px;
 height: 42px;
 flex-shrink: 0;
 border-radius: 10px;
@@ -47,7 +42,12 @@ font-size: 14px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-margin-top: 28px;
+}
+
+.button_header:hover,
+.button_header:focus {
+background-color: #ad9025;
+color: #FCFCFC;
 }
 
 .logo_menu{
