@@ -8,12 +8,28 @@
   color: #131313;
   text-align: center;
   font-family: "Montserrat";
-  font-size: 30px;
+  
   font-style: normal;
   font-weight: 800;
   line-height: normal;
   letter-spacing: 1.2px;
   text-transform: uppercase;
+
+    @media screen and (min-width: 320px) {
+      font-size: 18px;
+      }
+    
+      @media screen and (min-width: 480px) {
+      font-size: 22px;
+      }
+    
+      @media screen and (min-width: 768px) {
+    font-size: 22px;
+      }
+    
+      @media screen and (min-width: 1200px) {
+      font-size: 30px;
+      }
 }
 
 .title_products {
@@ -82,7 +98,7 @@
   flex-shrink: 0;
   color: #131313;
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
